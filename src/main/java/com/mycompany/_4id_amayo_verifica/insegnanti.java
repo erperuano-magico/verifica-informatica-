@@ -3,17 +3,31 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
 package com.mycompany._4id_amayo_verifica;
-
+import Java.util.Scanner;
 /**
  *
  * @author ospite
  */
 public class insegnanti {
 
-    private String[] cognome_i = {"castriotta", "tagliabue", "infante"};
-    private String[] materie_i = {"italiano", "matematica", "informatica"};
+   private String[] cognome_i;
+   private String[] materie_i;
+   // private String[] cognome_i = {"castriotta", "tagliabue", "infante"};
+   // private String[] materie_i = {"italiano", "matematica", "informatica"};
 
+public void scan(){
+
+    cognome_i = {"castriotta", "tagliabue", "infante"};
+    materie_i = {"italiano", "matematica", "informatica"};
+
+}
+
+
+    
     public void visualizzazione_i() {
+
+
+        
         for (int i = 0; i < 3; i++) {
             System.out.println(" ");
             System.out.print("prof " + cognome_i[i]);
