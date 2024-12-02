@@ -16,6 +16,7 @@ public class scuola {
     public static void main(String[] args) {
 //creo un oggetto per la classe studenti che gestira la stampa di nome, cognome, calcolo per la media dei voti e verificare se il voto e sufficente o meno 
         studenti stu1 = new studenti();
+        stu1.scan();
 // richiamo del metodo stampa_voti_studente presente nella classe studenti tramite l'oggetto stu1
         stu1.stampa_voti_studente();
 //creo un oggetto per la classe insegnanti che gestira la stampa di cognome e materia di cui si occdupa ogni insegnante 
